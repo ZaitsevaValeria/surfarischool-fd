@@ -1,1 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  width: 100%;
+  min-width: 320px;
+  font-family: 'Ubuntu', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul {
+  -webkit-appearanse: none;
+  -moz-appearanse: none;
+}
