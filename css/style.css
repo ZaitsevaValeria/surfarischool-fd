@@ -3,34 +3,64 @@
   padding: 0;
 }
 
+/*webkit-appearanse: none;
+-moz-appearanse: none;*/
+
 body {
   width: 100%;
   min-width: 320px;
   font-family: 'Ubuntu', Arial, sans-serif;
+  color: #223035;
 }
 
 a {
   text-decoration: none;
-  color: #ffffff;
-}
-
-ul {
-  -webkit-appearanse: none;
-  -moz-appearanse: none;
+  color: #223035;
 }
 
 .first-screen {
-  max-width: 100%;
+  width: 100%;
   height: 100vh;
+  box-sizing: border-box;
   background-image: url('../images/first_screen_1920.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #79BBC0;
-  padding: 40px 260px;
+  padding: 30px 260px;
 }
 
 .header-wrapper {
   width: 1400px;
-  max-width: 1400px;
+  max-width: 100%;
+}
+
+.logo-menu-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo-first {
+  width: 104px;
+}
+
+.menu-list {
+  width: 560px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+ /* identical to box height */
+  text-transform: uppercase;
+}
+
+.menu-link:hover {
+  color: #D9A159;
 }
