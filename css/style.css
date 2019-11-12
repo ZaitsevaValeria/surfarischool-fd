@@ -21,5 +21,7 @@ ul {
 
 .first-screen {
   width: 100%;
-  background: #79BBC0 url("images\first_screen_1920.jpg") no-repeat center center; 
+  height: 100vh;
+  background: #79BBC0 url("images/first_screen_1920.jpg") no-repeat center center;
+  background-image: url("/images/first_screen_1920.jpg");
 }
