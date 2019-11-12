@@ -18,3 +18,8 @@ ul {
   -webkit-appearanse: none;
   -moz-appearanse: none;
 }
+
+.first-screen {
+  width: 100%;
+  background: #79BBC0 url("images\first_screen_1920.jpg") no-repeat center center; 
+}
