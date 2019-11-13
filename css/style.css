@@ -139,3 +139,22 @@ h2 {
   font-size: 40px;
   line-height: 46px;
 }
+
+.about-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-wrapper::after {
+  content: 'url('../images/second_about_1920.jpg')';
+  width: 792px;
+  right: 0;
+  bottom: 0;
+
+}
+
+.about-content {
+  width: 50%;
+}
