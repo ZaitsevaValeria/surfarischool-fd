@@ -152,7 +152,7 @@ h2 {
   position: absolute;
   width: 792px;
   height: 680px;
-  right: 0;
+  right: 24px;
   bottom: 0;
   background-image: url('../images/second_about_1920.jpg');
   background-repeat: no-repeat;
@@ -209,4 +209,21 @@ h2 {
 
 .big-text-about:last-of-type {
   margin-top: 16px;
+}
+
+.about-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 647px;
+  margin-top: 40px;
+}
+
+.feature {
+  width: 275px;
+
+}
+
+.description-about {
+  width: 275px;
 }
