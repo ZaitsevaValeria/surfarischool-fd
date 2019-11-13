@@ -272,15 +272,17 @@ h3 {
   flex-wrap: nowrap;
   align-items: center;
   box-sizing: border-box;
-  padding: 40px 120px 40px 88px;
+  padding: 40px 180px 40px 10px;
   border-top: 2px solid #223035;
+}
+
+.caption-number {
+  margin-right: 40px;
 }
 
 .caption-process {
   width: 440px;
 }
-
-.caption-process::before
 
 .big-text-process {
   width: 920px;
