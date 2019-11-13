@@ -536,9 +536,9 @@ h4 {
   position: absolute;
   width: 42px;
   height: 48px;
-  right: 42px;
+  right: -42px;
   top: -21px;
-  background-image: url('images/btn-text-icon.png');
+  background-image: url('../images/btn-text-icon.svg');
 
 
 }
