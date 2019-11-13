@@ -147,12 +147,13 @@ h2 {
   flex-wrap: nowrap;
 }
 
-/* .about-wrapper::after {
+.about-wrapper::after {
   content: 'url('../images/second_about_1920.jpg')';
+  position: absolute;
   width: 792px;
   right: 0;
   bottom: 0;
-} */
+}
 
 .about-content {
   width: 770px;
