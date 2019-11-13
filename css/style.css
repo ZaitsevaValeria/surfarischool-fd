@@ -357,6 +357,10 @@ h3 {
   margin-top: 64px;
 }
 
+.big-text-item {
+  margin-top: 16px;
+}
+
 h4 {
   width: 440px;
   font-size: 20px;
@@ -473,6 +477,21 @@ h4 {
   text-align: right;
 }
 
+.section-reviews {
+  position: relative;
+}
+
+.section-reviews::after {
+  content: '';
+  position: absolute;
+  width: 97px;
+  height: 49px;
+  bottom: 160px;
+  right: -64px;
+  background-image: url('../images/wawes.png');
+  z-index: -1;
+}
+
 .reviews-cards {
   display: flex;
   flex-wrap: wrap;
@@ -558,9 +577,32 @@ h4 {
 }
 
 .gallery-images {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   margin-top: 90px;
+}
+
+.gallery-images::before {
+  content: '';
+  position: absolute;
+  width: 97px;
+  height: 49px;
+  top: 78px;
+  left: 400px;
+  background-image: url('../images/wawes.png');
+  z-index: -1;
+}
+
+.gallery-images::after {
+  content: '';
+  position: absolute;
+  width: 97px;
+  height: 49px;
+  bottom: 78px;
+  right: 400px;
+  background-image: url('../images/wawes.png');
+  z-index: -1;
 }
 
 .gallery-images-column {
@@ -578,6 +620,33 @@ h4 {
 .gallery-images-column img:last-child {
   margin-top: 40px;
 }
+
+.teachers-cards {
+  position: relative;
+}
+
+.teachers-cards::before {
+  content: '';
+  position: absolute;
+  width: 97px;
+  height: 49px;
+  top: 78px;
+  left: 400px;
+  background-image: url('../images/wawes.png');
+  z-index: -1;
+}
+
+.teachers-cards::after {
+  content: '';
+  position: absolute;
+  width: 97px;
+  height: 49px;
+  bottom: 400px;
+  right: 400px;
+  background-image: url('../images/wawes.png');
+  z-index: -1;
+}
+
 
 .description-teachers {
   width: 720px;
