@@ -190,12 +190,23 @@ h2 {
 .about-content::after {
   content: '';
   position: absolute;
+  box-sizing: border-box;
   width: 696px;
   height: 696px;
   left: -24px;
   top: -24px;
   background: #FFFFFF;
   border: 8px solid #F4E0C7;
-  box-sizing: border-box;
   z-index: -2;
+}
+
+.big-text {
+  font-family: 'Rubik', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.big-text-about:last-of-type {
+  margin-top: 16px;
 }
