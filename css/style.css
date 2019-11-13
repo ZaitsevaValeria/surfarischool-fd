@@ -356,7 +356,7 @@ h3 {
   margin-top: 64px;
 }
 
-h4.caption-small {
+h4 {
   width: 440px;
   font-size: 20px;
   line-height: 26px;
@@ -514,5 +514,38 @@ h4.caption-small {
 }
 
 .caption-reviews {
+  width: 140px;
   margin-top: 24px;
+}
+
+.social-small {
+  width: 48px;
+  margin-top: 16px;
+}
+
+.btn-container {
+  width: 443px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 56px;
+}
+
+.btn-container::after {
+  content: '';
+  position: absolute;
+  width: 42px;
+  height: 48px;
+  right: 42px;
+  top: -21px;
+  background-image: url('images/btn-text-icon.png');
+
+
+}
+
+.btn-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
 }
