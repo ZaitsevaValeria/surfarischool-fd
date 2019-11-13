@@ -91,9 +91,6 @@ h1 {
 }
 
 .cta-btn {
-  width: 272px;
-  height: 56px;
-  margin-top: 40px;
   padding: 0;
   border: none;
   background-color: #223035;
@@ -107,15 +104,24 @@ h1 {
   color: #F9F5F1;
 }
 
+.cta-btn-first {
+  width: 272px;
+  height: 56px;
+  margin-top: 40px;
+}
+
 .cta-btn:hover {
-  width: 274px;
-  height: 58px;
   background: #2F3D42;
   box-shadow: 0px 8px 16px rgba(34, 48, 53, 0.4),
   0px 2px 4px rgba(34, 48, 53, 0.25),
   0px 12px 24px rgba(34, 48, 53, 0.25);
   color: #ffffff;
   cursor: pointer;
+}
+
+.cta-btn-first:hover {
+  width: 274px;
+  height: 58px;
 }
 
 .logo-ta {
@@ -141,7 +147,7 @@ h1 {
 
 h2 {
   font-size: 40px;
-  line-height: 46px;
+  line-height: 56px;
 }
 
 .about-wrapper {
@@ -340,7 +346,128 @@ h3 {
   width: 440px;
 }
 
+.item:nth-child(n + 2):nth-child(-n+3),
+.item:nth-child(n + 5):nth-child(-n+6),
+.item:nth-child(n + 8) {
+  margin-left: 40px;
+}
+
+.item:nth-child(n+4) {
+  margin-top: 64px;
+}
+
 h4.caption-small {
+  width: 440px;
   font-size: 20px;
   line-height: 26px;
+}
+
+.caption-small-all-inclusive {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #223035;
+}
+
+.section-title-tariffs,
+.description-tariffs {
+  width: 800px;
+  margin-left: 260px;
+}
+
+.description-tariffs {
+  line-height: 36px;
+}
+
+.tariff {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 732px;
+  background-color: #F9F5F1;
+}
+
+.tariff:first-of-type {
+  margin-top: 90px;
+}
+
+.tariff-content {
+  width: 960px;
+  box-sizing: border-box;
+  padding: 65px 35px 65px 260px;
+}
+
+.tariff-individual .tariff-content {
+  padding: 65px 265px 65px 40px;
+}
+
+.description-small {
+  font-family: 'Rubik', Arial, sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.description-small-tariff {
+  width: 440px;
+  margin-top: 12px;
+}
+
+.tariff-item {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.tariff-name {
+  width: 260px;
+}
+
+.description-small-strong {
+  font-family: 'Rubik', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.text-small {
+  font-family: 'Rubik', Arial, sans-serif ;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.text-small-tariff {
+  margin-top: 8px;
+}
+
+.time {
+  width: 98px;
+  text-align: center;
+}
+
+.price {
+  width: 52px;
+  text-align: center;
+}
+
+.cta-btn-tariff {
+  width: 198px;
+  height: 58px;
+}
+
+.cta-btn-tariff:hover {
+  width: 200px;
+  height: 60px;
+}
+
+.tariff-trip .description-small-tariff {
+  width: 640px;
+}
+
+.tariff-trip .description-small-tariff:nth-of-type(n+2) {
+  margin-top: 8px;
+}
+
+.info {
+  margin-top: 24px;
+  text-align: right;
 }
