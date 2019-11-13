@@ -79,9 +79,13 @@ h1 {
 }
 
 .description {
-  width: 516px;
   font-family: 'Rubik', Arial, sans-serif ;
   font-size: 24px;
+  margin-top: 16px;
+}
+
+.description-first {
+  width: 516px;
   line-height: 150%;
   margin-top: 16px;
 }
@@ -147,13 +151,26 @@ h2 {
   flex-wrap: nowrap;
 }
 
+.about-wrapper::before {
+  content: '';
+  position: absolute;
+  width: 696px;
+  height: 655px;
+  right: 0;
+  bottom: -64px;
+  background: #FFFFFF;
+  border: 8px solid #F4E0C7;
+  box-sizing: border-box;
+  z-index: -5;
+}
+
 .about-wrapper::after {
   content: '';
   position: absolute;
   width: 792px;
   height: 680px;
   right: 24px;
-  bottom: 0;
+  bottom: -40px;
   background-image: url('../images/second_about_1920.jpg');
   background-repeat: no-repeat;
   background-color: #F9F5F1;
@@ -178,13 +195,13 @@ h2 {
   position: absolute;
   width: 97px;
   height: 49px;
-  left: -24px;
+  left: -64px;
   top: 90px;
   background-image: url('../images/wawes.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  z-index: -1;
+  z-index: -2;
 }
 
 .about-content::after {
@@ -197,7 +214,7 @@ h2 {
   top: -24px;
   background: #FFFFFF;
   border: 8px solid #F4E0C7;
-  z-index: -2;
+  z-index: -1;
 }
 
 .big-text {
@@ -227,7 +244,7 @@ h2 {
   margin-top: 32px;
 }
 
-.caption {
+h3 {
  font-size: 32px;
  line-height: 32px;
 }
@@ -239,4 +256,8 @@ h2 {
 .description-about {
   width: 275px;
   line-height: 31px;
+}
+
+.description-process {
+  width: 590px;
 }
