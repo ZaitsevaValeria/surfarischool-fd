@@ -280,6 +280,10 @@ h3 {
   border-top: 2px solid #223035;
 }
 
+.process-point:last-of-type {
+  border-bottom: 2px solid #223035;
+}
+
 .caption-number {
   margin-right: 40px;
 }
@@ -314,10 +318,29 @@ h3 {
 
 }
 
-
 .section-title-motivation {
   width: 780px;
   margin-left: 260px;
   font-size: 48px;
   line-height: 62px;
+}
+
+.description-all-inclusive {
+  width: 560px;
+  line-height: 36px;
+}
+
+.all-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+.item {
+  width: 440px;
+}
+
+h4.caption-small {
+  font-size: 20px;
+  line-height: 26px;
 }
