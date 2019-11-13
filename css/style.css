@@ -471,3 +471,48 @@ h4.caption-small {
   margin-top: 24px;
   text-align: right;
 }
+
+.reviews-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+.review-card {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 32px 32px 68px;
+  width: 680px;
+  height: 376px;
+  background: #FFFFFF;
+  box-shadow:
+  0px 4px 6px rgba(34, 48, 53, 0.08),
+  0px 2px 2px rgba(10, 51, 64, 0.08);
+}
+
+.review-card:nth-child(n+3) {
+  margin-top: 40px;
+}
+
+.review-card:nth-child(even) {
+  margin-left: 40px;
+}
+
+
+.review-card-profile {
+  width: 140px;
+}
+
+.text-small-rewiew {
+  width: 448px;
+  margin-left: 28px;
+}
+
+.person-img {
+  width: 100%;
+}
+
+.caption-reviews {
+  margin-top: 24px;
+}
