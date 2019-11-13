@@ -270,8 +270,18 @@ h3 {
 .process-point {
   display: flex;
   flex-wrap: nowrap;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 40px 120px 40px 88px;
+  border-top: 2px solid #223035;
 }
 
 .caption-process {
   width: 440px;
+}
+
+.caption-process::before
+
+.big-text-process {
+  width: 920px;
 }
