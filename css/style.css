@@ -260,4 +260,18 @@ h3 {
 
 .description-process {
   width: 590px;
+  line-height: 36px;
+}
+
+.process-points {
+  margin-top: 90px;
+}
+
+.process-point {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.caption-process {
+  width: 440px;
 }
