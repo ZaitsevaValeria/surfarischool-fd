@@ -221,7 +221,19 @@ h2 {
 
 .feature {
   width: 275px;
+}
 
+.feature:nth-of-type(n+3) {
+  margin-top: 32px;
+}
+
+.caption {
+ font-size: 32px;
+ line-height: 32px;
+}
+
+.caption-about {
+ margin-bottom: 8px;
 }
 
 .description-about {
