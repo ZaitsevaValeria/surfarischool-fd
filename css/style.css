@@ -814,17 +814,19 @@ textarea {
 }
 
 .social-buttons {
+  display: flex;
+  flex-wrap: wrap;
   width: 320px;
   margin-top: 64px;
-
 }
 
-.action-social-link:nth-child(n+2):nth-child(-n+3) {
-  margin-left: 40px;
+.social-buttons img {
+  width: 80px;
 }
 
+.action-social-link:nth-child(n+2):nth-child(-n+3),
 .action-social-link:nth-child(n+5):nth-child(-n+6) {
-  margin-left: 40px;
+  margin-left: 36px;
 }
 
 .action-social-link:nth-child(n+4) {
