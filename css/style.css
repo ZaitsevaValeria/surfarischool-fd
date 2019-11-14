@@ -832,3 +832,73 @@ textarea {
 .action-social-link:nth-child(n+4) {
   margin-top: 40px;
 }
+
+.description-contacts {
+  width: 800px;
+}
+
+.contacts-block {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+}
+
+.contacts-info {
+  width: 580px;
+  padding: 0px 120px;
+}
+
+.contacts-info-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contacts-info-row:nth-of-type(n+2) {
+  margin-top: 40px;
+}
+
+.contacts-info-row h4 {
+  width: 100px;
+  text-align: right;
+}
+
+.contacts-info-row p {
+  width: 440px;
+}
+
+.contacts-social {
+  width: 390px;
+}
+
+.contacts-social-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts-social-row:nth-of-type(n+2) {
+  margin-top: 40px;
+}
+
+.contacts-social-row h4 {
+  width: 158px;
+  text-align: right;
+}
+
+.contacts-social-row .social-small {
+  margin-top: 0px;
+}
+
+.social-media-icons,
+.social-messengers-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contacts-social-link:nth-of-type(n+2) {
+  margin-left: 24px;
+}
