@@ -902,3 +902,23 @@ textarea {
 .contacts-social-link:nth-of-type(n+2) {
   margin-left: 24px;
 }
+
+.section-full-footer {
+  background-color: #223035;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 1400px;
+  box-sizing: border-box;
+}
+
+.footer-wrapper p {
+  font-size: 20px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #F9F5F1;
+}
