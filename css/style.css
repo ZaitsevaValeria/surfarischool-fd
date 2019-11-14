@@ -904,7 +904,9 @@ textarea {
 }
 
 .section-full-footer {
+  height: 265px;
   background-color: #223035;
+  margin-top: 0;
 }
 
 .footer-wrapper {
@@ -913,10 +915,17 @@ textarea {
   justify-content: space-between;
   align-items: center;
   width: 1400px;
-  box-sizing: border-box;
+  padding-top: 106px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
-.footer-wrapper p {
+.logo-footer {
+  width: 104px;
+}
+
+.footer-text {
   font-size: 20px;
   line-height: 110%;
   text-transform: uppercase;
