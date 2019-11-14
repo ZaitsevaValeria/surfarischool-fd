@@ -691,3 +691,13 @@ h4 {
 .social-link .social-small {
   margin-top: 24px;
 }
+
+.section-full-action {
+  box-sizing: border-box;
+  padding: 100px 260px;
+  background-color: #F9F5F1;
+}
+
+.section-title-reviews {
+
+}
