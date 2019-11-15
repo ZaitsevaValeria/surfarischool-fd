@@ -127,7 +127,7 @@ button:active {
 a:focus,
 button:focus {
   outline: solid 1px #E3C394;
-  outline-offset: 8px;
+  outline-offset: 4px;
 }
 
 .cta-btn-first {
@@ -451,7 +451,7 @@ h4 {
 .text-small {
   font-family: 'Rubik', Arial, sans-serif ;
   font-size: 0.8vw; /*16px*/
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .text-small-tariff {
@@ -577,16 +577,12 @@ h4 {
 }
 
 .btn-container {
-  width: 492px; /*440px*/
+  width: 23vw; /*440px*/
   height: 2.6vw; /*50px*/
   position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-top: 2.9vw; /*56px*/
-  background-image: url('../images/btn-text-icon.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 100% 50%;
 }
 
 .btn-container::after {
@@ -738,7 +734,7 @@ h4 {
 }
 
 .social-link:nth-child(n+2) {
-  margin-left: 1.3vw; /*24px*/
+  margin-left: 1vw; /*24px*/
 }
 
 .section-full-action {
@@ -862,6 +858,10 @@ textarea {
 
 .underlined {
   border-bottom: 1px solid #223035;
+}
+
+.underlined:hover {
+  border-bottom: 1px solid #E3C394;
 }
 
 .social-buttons {
