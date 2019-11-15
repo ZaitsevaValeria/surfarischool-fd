@@ -577,7 +577,7 @@ h4 {
 }
 
 .btn-container {
-  width: 23vw; /*440px*/
+  width: 492px; /*440px*/
   height: 2.6vw; /*50px*/
   position: relative;
   margin-left: auto;
@@ -586,7 +586,7 @@ h4 {
   background-image: url('../images/btn-text-icon.svg');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: 100% 50%;
 }
 
 .btn-container::after {
