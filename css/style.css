@@ -898,7 +898,6 @@ textarea {
 .contacts-info {
   width: 30.2vw; /*580px*/
   padding: 0 6.2vw; /* 0px 120px */
-  box-sizing: border-box;
 }
 
 .contacts-info-row {
