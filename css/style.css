@@ -805,6 +805,7 @@ textarea:focus {
   font-size: 1vw; /*20px*/
   font-weight: 700;
   padding-left: 0.5vw;  /*10px*/
+  box-sizing: border-box;
 }
 
 .form-field:nth-of-type(n+2) {
@@ -897,6 +898,7 @@ textarea {
 .contacts-info {
   width: 30.2vw; /*580px*/
   padding: 0 6.2vw; /* 0px 120px */
+  box-sizing: border-box;
 }
 
 .contacts-info-row {
