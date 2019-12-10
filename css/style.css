@@ -7,7 +7,6 @@
 -moz-appearanse: none;*/
 
 body {
-  width: 100%;
   min-width: 1200px;
   max-width: 1920px;
   font-family: 'Ubuntu', Arial, sans-serif;
@@ -32,7 +31,6 @@ h1, h2, h3, h4 {
 }
 
 .first-screen {
-  width: 100%;
   max-width: 100%;
   /*height: 100vh;*/
   box-sizing: border-box;
@@ -50,7 +48,6 @@ h1, h2, h3, h4 {
 }
 
 .logo-menu-wrapper {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -154,7 +151,6 @@ button:focus {
 }
 
 .section-full {
-  width: 100%;
   max-width: 100%;
 }
 
@@ -165,7 +161,6 @@ h2 {
 
 .about-wrapper {
   position: relative;
-  width: 100%;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -321,7 +316,6 @@ h3 {
 }
 
 .section-full-motivation {
-  width: 100%;
   height: 44vw; /* 838px */
   position: relative;
   box-sizing: border-box;
@@ -400,7 +394,6 @@ h4 {
 .tariff {
   display: flex;
   flex-wrap: nowrap;
-  width: 100%;
   height: 39vw; /*732px*/
   background-color: #F9F5F1;
 }
