@@ -146,6 +146,11 @@ button.cta-btn:focus {
   margin-right: 0;
 }
 
+.section-full,
+.section {
+  margin-top: 10.4vw;
+}
+
 .section {
   width: 73vw;
   max-width: 100%;
@@ -325,7 +330,7 @@ h3.caption {
   position: relative;
   box-sizing: border-box;
   margin-top: 10.4vw; /* 200px */
-  background: #F9F5F1 url('../images/motivation_1920.jpg') no-repeat center;
+  background: #ffffff url('../images/motivation_1920.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -494,18 +499,43 @@ h4.caption-small {
 
 .tariff-img-container {
   width: 50%;
-  height: 100%;
+  height: 100%; /*400px*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.tariff-img {
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /*min-width: 960px; min-height: 38vw;*/
+.tariff-img-container-group {
+  background-image: url('../images/t-group_960-732.jpg');
 }
+
+.tariff-img-container-individual {
+  background-image: url('../images/t-individ_960-732.jpg');
+}
+
+.tariff-img-container-trip {
+  background-image: url('../images/t-trip_960-731.jpg');
+}
+
+
+
 
 .section-reviews {
   position: relative;
+}
+
+.section-reviews::before {
+  content: '';
+  position: absolute;
+  width: 5vw; /*97px*/
+  height: 2.6vw; /*49px*/
+  top: 20%;
+  left: -5%;
+  background-image: url('../images/wawes.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: -1;
 }
 
 .section-reviews::after {
@@ -613,6 +643,8 @@ h4.caption-small {
   line-height: 1.5;
   text-transform: uppercase;
 }
+
+
 
 .section-title-gallery {
   width: 57vw; /*1088px*/
@@ -1085,6 +1117,7 @@ iframe.iframe-map {
 }
 
 
+
 @media (min-width: 768px) and (max-width: 1199px)  {
 
   body {
@@ -1142,6 +1175,11 @@ iframe.iframe-map {
   .logo-ta {
     width: 11.2vw; /* 86px */
     margin-top: 18.2vw; /*140px*/
+  }
+
+  .section-full,
+  .section {
+    margin-top: 20.8vw;
   }
 
   .section {
@@ -1252,9 +1290,312 @@ iframe.iframe-map {
   }
 
 
+
   .process {
     margin-top: 56.6vw; /* 434px */
   }
+
+  .description-process {
+    width: 62.5vw;  /* 480px */
+  }
+
+  .process-points {
+    margin-top: 8.3vw; /* 64px */
+  }
+
+  .process-point {
+    padding: 3vw 1.5vw; /* 24px 12px */
+    border-top: 2px solid #223035;
+  }
+
+  .caption-number {
+    margin-right: 2.6vw; /* 20px */
+  }
+
+  .caption-process {
+    width: 28.6vw; /* 220px */
+  }
+
+  .big-text-process {
+    width: 49.7vw; /* 382px */
+  }
+
+  .section-full-motivation {
+    margin-top: 20.8vw; /* 160px */
+    background: #F9F5F1 url('../images/3-motivation-768.jpg') no-repeat center;
+  }
+
+  .section-full-motivation::before {
+    width: 5.5vw; /* 42px */
+    height: 4.2vw; /* 32px */
+    top: 15%;
+    left: 4.8%;
+    background-image: url('../images/quotes-42-768.svg');
+  }
+
+  .section-title-motivation {
+    width: 64.1vw; /* 492px */
+    margin-left: 4.4vw; /* 34px */
+    font-size: 4.2vw; /* 32px */
+    padding-top: 18.8vw; /* 144px */
+    padding-bottom: 33.6vw; /* 258px */
+  }
+
+
+
+  .description-all-inclusive {
+    width: 60vw; /* 460px */
+  }
+
+  .all-items {
+    margin-top: 8.3vw; /* 64px */
+  }
+
+  .item {
+    width: 28.6vw; /* 220px */
+  }
+
+  .item:nth-child(n + 2):nth-child(-n+3),
+  .item:nth-child(n + 5):nth-child(-n+6),
+  .item:nth-child(n + 8) {
+    margin-left: 2.6vw; /* 20px */
+  }
+
+  .item:nth-child(n+4) {
+    margin-top: 4.2vw; /* 32px */
+  }
+
+  .big-text-item {
+    margin-top: 1.6vw; /* 12px */
+  }
+
+  h4.caption-small {
+    width: 28.6vw; /* 220px */
+    font-size: 2vw; /* 16px */
+  }
+
+  .caption-small-all-inclusive {
+    padding-bottom: 1vw; /* 8px */
+    border-bottom: 2px solid #223035;
+  }
+
+  .section-title-tariffs,
+  .description-tariffs {
+    width: 83.3vw; /*640px*/
+    margin-left: 4.4vw; /*34px*/
+  }
+
+  .description-tariffs {
+    width: 75.5vw; /*580px*/
+  }
+
+  .tariff {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .tariff:first-of-type {
+    margin-top: 8.3vw; /*64px*/
+  }
+
+  .tariff-content {
+    width: 100%;
+    padding: 6.3vw 8.3vw; /*48px 64px*/
+    order: 2;
+  }
+
+  .tariff-individual .tariff-content {
+    padding: 6.3vw 8.3vw; /*48px 64px*/
+  }
+
+  .description-small {
+    font-size: 2vw; /*16px*/
+  }
+
+  .description-small-tariff {
+    width: 52vw; /*400px*/
+    margin-top: 1vw; /*8px*/
+  }
+
+  .tariff-item {
+    margin-top: 3vw; /*24px*/
+  }
+
+  .tariff-item:first-child {
+    margin-top: 4.2vw; /*32px*/
+  }
+
+  .tariff-name {
+    width: 24.7vw; /*190px*/
+  }
+
+  .description-small-strong {
+    font-size: 2.3vw; /*18px*/
+  }
+
+  .text-small {
+    font-family: 'Rubik', Arial, sans-serif ;
+    font-size: 2vw; /*16px*/
+    line-height: 1.3;
+  }
+
+  .text-small-tariff {
+    margin-top: 0.5vw; /*4px*/
+  }
+
+  .time {
+    width: 11.4vw; /*88px*/
+  }
+
+  .price {
+    width: 6.2vw; /*47px*/
+    text-align: center;
+  }
+
+  .cta-btn-tariff {
+    width: 22vw; /*169px*/
+    height: 7vw; /*53px*/
+  }
+
+  .tariff-trip .description-small-tariff {
+    width: 71.7vw; /*550px*/
+  }
+
+  .tariff-trip .description-small-tariff:nth-of-type(n+2) {
+    margin-top: 0.5vw; /*4px*/
+  }
+
+  .info {
+    margin-top: 3vw; /*24px*/
+    text-align: right;
+  }
+
+  .tariff-img-container {
+    width: auto;
+    height: 52vw; /*400px*/
+    order: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .tariff-img-container-group {
+    background-image: url('../images/4-group-768.jpg');
+  }
+
+  .tariff-img-container-individual {
+    background-image: url('../images/5-individual-768.jpg');
+  }
+
+  .tariff-img-container-trip {
+    background-image: url('../images/6-trip-768.jpg');
+  }
+
+
+
+  .section-reviews {
+    position: relative;
+  }
+
+  .section-reviews::before {
+    content: '';
+    position: absolute;
+    width: 9vw; /*70px*/
+    height: 4.5vw; /*35px*/
+    top: 20%;
+    left: -5%;
+    background-image: url('../images/wawes-70-768.svg');
+    z-index: -1;
+  }
+
+  .section-reviews::after {
+    width: 9vw; /*70px*/
+    height: 4.5vw; /*35px*/
+    bottom: 16%;
+    right: -5%;
+    background-image: url('../images/wawes-70-768.svg');
+    z-index: -1;
+  }
+
+  .reviews-cards {
+    flex-direction: column;
+    margin-top: 8.3vw; /*64px*/
+  }
+
+  .review-card {
+    padding: 4.2vw; /*32px*/
+    width: 100%;
+    height: auto;
+  }
+
+  .review-card:nth-child(n+2) {
+    margin-top: 3vw; /*24px*/
+  }
+
+  .review-card:nth-child(even) {
+    margin-left: 0;
+  }
+
+  .review-card-profile {
+    width: 13vw; /*100px*/
+  }
+
+  .text-small-rewiew {
+    width: 66.7vw; /*512px*/
+    margin-left: 3vw; /*24px*/
+  }
+
+  .person-img {
+    width: 100%;
+  }
+
+  .section-reviews h4.caption-reviews {
+    width: 13vw; /*100px*/
+    margin-top: 1.3vw; /*24px*/
+  }
+
+  .btn-container {
+    width: 52vw; /*400px*/
+    height: 5.2vw; /*40px*/
+    margin-top: 3vw; /*24px*/
+  }
+
+  .btn-container::after {
+    content: '';
+    position: absolute;
+    width: 5.2vw; /*40px*/
+    height: 5.2vw; /*40px*/
+    right: 5%;
+    top: -20%;
+    background-image: url('../images/btn-text-icon.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .btn-text {
+    font-size: 2vw;
+  }
+
+  .social-small-icon {
+    width: 5.2vw;
+    height: 5.2vw;
+    margin-top: 1.5vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .social-small-vk {
+    background-image: url('../images/vk40.svg');/*40px*/
+  }
+
+  .social-small-fb {
+    background-image: url('../images/fb40.svg');/*40px*/
+  }
+
+
+
 
 
 
