@@ -1172,31 +1172,23 @@ iframe.iframe-map {
     height: 54.1vw; /* 416px */
     right: 2%; /* 24px */
     bottom: -5%; /* -40px */
-    background-image: url('../images/2_about_768.jpg');
+    background-image: url('../images/2-about-768.jpg');
   }
 
   .about-content {
-    position: relative;
-    box-sizing: border-box;
-    width: 40.1vw;  /* 770px */
-    margin-left: 1.2vw;  /* 24px */
-    margin-top: 4.7vw;  /* 90px */
-    padding: 4.5vw 2.8vw;  /* 85px 55px */
+    width: 52vw;  /* 400px */
+    margin-left: 1.5vw;  /* 12px */
+    margin-top: 8.3vw;  /* 64px */
     background-color: #F9F5F1;
-    box-shadow: 0px 8px 24px rgba(34, 48, 53, 0.08);
+    padding: 4.2vw;  /* 32px 32px */
   }
 
   .about-content::before {
-    content: '';
-    position: absolute;
-    width: 5vw; /* 97px */
-    height: 2.6vw; /* 49px */
+    width: 9.1vw; /* 70px */
+    height: 4.6vw; /* 35px */
     left: -8.3%; /* -64px */
     top: 12.4%; /* 90px */
-    background-image: url('../images/wawes.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    background-image: url('../images/wawes-70-768.svg');
     z-index: -2;
   }
 
@@ -1204,53 +1196,54 @@ iframe.iframe-map {
     content: '';
     position: absolute;
     box-sizing: border-box;
-    width: 36vw; /* 696px */
-    height: 36vw; /* 696px */
+    width: 52vw; /* 400px */
+    height: 57.3vw; /* 440px */
     left: -24px; /* -24p */
     top: -24px; /* -24px */
     background: #FFFFFF;
-    border: 8px solid #F4E0C7;
+    border: 4px solid #F4E0C7;
     z-index: -1;
   }
 
   .big-text {
-    font-family: 'Rubik', Arial, sans-serif;
-    font-weight: normal;
-    font-size: 1vw; /* 20px */
+    font-size: 2vw; /* 16px */
     line-height: 1.5;
   }
 
   .big-text-about:last-of-type {
-    margin-top: 1vw; /* 16px */
+    margin-top: 2vw; /* 16px */
   }
 
   .about-features {
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 34vw;  /* 647px */
+    width: 67.7vw;  /* 520px */
     margin-top: 2vw;  /* 40px */
+    left: 20%; /* 62px */
+    top: 115%; /* 510px */
   }
 
   .feature {
-    width: 42.5%; /* 275px */
+    width: 42%; /* 220px */
+  }
+
+  .feature:nth-of-type(even) {
+    margin-left: 10vw; /*79px*/
   }
 
   .feature:nth-of-type(n+3) {
-    margin-top: 1.7vw; /* 32px */
+    margin-top: 3vw; /* 24px */
   }
 
   h3.caption {
-   font-size: 1.6vw; /* 32px */
-   line-height: 1; /* 32px */
-  }
-
-  .caption {
-    line-height: 1.3; /* 42px */
+   font-size: 3vw; /* 24px */
   }
 
   .caption-about {
-   margin-bottom: 0.4vw; /* 8px */
+   margin-bottom: 0.5vw; /* 4px */
+   line-height: 1;
   }
 
   .description-about {
@@ -1258,6 +1251,10 @@ iframe.iframe-map {
     line-height: 1.3; /* 32px */
   }
 
+
+  .process {
+    margin-top: 56.6vw; /* 434px */
+  }
 
 
 
