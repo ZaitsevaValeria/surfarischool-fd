@@ -1120,7 +1120,7 @@ iframe.iframe-map {
 
 
 
-@media (min-width: 768) and (max-width: 1199px)  {
+@media (min-width: 768px) and (max-width: 1199px)  {
 
   body {
     min-width: 768px;
