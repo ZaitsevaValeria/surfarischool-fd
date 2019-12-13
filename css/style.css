@@ -1966,3 +1966,133 @@ iframe.iframe-map {
   }
 
 }
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 767px;
+  }
+
+  .first-screen {
+    max-width: 100%;
+    background-image: url('../images/1-first-screen-320.jpg');
+    padding: 5.6vw 3.1vw 10vw; /*18px 10px 32px*/
+  }
+
+  .header-wrapper {
+    width: 93.7vw;
+  }
+
+  .logo-menu-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-first {
+    width: 5.4vw; /*104px*/
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .menu-list-item:nth-child(n+2) {
+    margin-left: 1.8vw;/*36px*/
+  }
+
+  .title-main {
+    width: 38.7vw; /* 743px */
+    font-size: 2.5vw; /* 48px */
+    line-height: 1.25;  /* or 62px */
+    margin-top: 11.1vw; /* 214px */
+  }
+
+  .description {
+    font-family: 'Rubik', Arial, sans-serif ;
+    font-size: 1.25vw; /* 24px */
+    margin-top: 0.8vw; /* 16px */
+    line-height: 1.3;
+  }
+
+  .description-first {
+    width: 27vw; /* 516px */
+    line-height: 1.5;
+    margin-top: 1vw; /* 16px */
+  }
+
+  button.cta-btn {
+    padding: 0;
+    border: none;
+    background-color: #223035;
+    box-shadow:
+    0px 8px 16px rgba(34, 48, 53, 0.4),
+    0px 2px 4px rgba(34, 48, 53, 0.25);
+    font-weight: 500;
+    font-size: 1vw; /* 16px */
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #F9F5F1;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+  }
+
+  button.cta-btn:hover {
+    background: #2F3D42;
+    box-shadow: 0px 8px 16px rgba(34, 48, 53, 0.4),
+    0px 2px 4px rgba(34, 48, 53, 0.25),
+    0px 12px 24px rgba(34, 48, 53, 0.25);
+    color: #ffffff;
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+
+  button.cta-btn:active {
+    background: #202D31;
+    box-shadow: 0px 4px 8px rgba(32, 45, 49, 0.5);
+  }
+
+  a:focus,
+  button.cta-btn:focus {
+    outline: solid 1px #E3C394;
+    outline-offset: 4px;
+  }
+
+  .cta-btn-first {
+    width: 14vw; /* 272px */
+    height: 3vw; /* 56px */
+    margin-top: 2vw; /* 40px */
+  }
+
+  .logo-ta {
+    display: block;
+    width: 4.4vw; /* 86px */
+    margin-top: 5.3vw;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .section-full,
+  .section {
+    margin-top: 10.4vw;
+  }
+
+  .section {
+    width: 73vw;
+    max-width: 100%;
+    margin-top: 11vw; /* 200px */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-full {
+    width: 100%;
+    max-width: 100%;
+  }
+
+
+
+}
