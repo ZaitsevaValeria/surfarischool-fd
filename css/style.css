@@ -2284,6 +2284,7 @@ iframe.iframe-map {
 
   .big-text-item {
     margin-top: 3.8vw; /* 12px */
+    margin-left: 18.7vw;
   }
 
   .caption-small {
@@ -2621,7 +2622,7 @@ iframe.iframe-map {
     margin-top: 17.5vw;
   }
 
-  .gallery-images-column::after {
+  /*.gallery-images-column::after {
     content: '';
     position: absolute;
     width: 16.3vw;
@@ -2633,7 +2634,7 @@ iframe.iframe-map {
     background-repeat: no-repeat;
     background-size: contain;
 
-  }
+  }*/
 
   .gallery-images-column:nth-child(n+2) {
     display: none;
